@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inteligência Artificial nas Práticas de Programação</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, p, a {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      margin-top: 30px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #2a4365;
+      color: #fff;
+    }
+
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .nav {
+      background-color: #2a4365;
+      overflow: hidden;
+    }
+
+    .nav a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      background-color: #00477f;
+      color: #fff;
+    }
+
+    .content {
+      margin-top: 20px;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #2a4365;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .content h2:hover {
+      color: #00477f;
+    }
+
+     .content h4 {
+      color: #2a4365;
+    }
+
+    .content h4:hover {
+      color: #00477f;
+    }
+
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0071c2;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .button:hover {
+      background-color: #00477f;
+      color: #fff;
+    }
+
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    .highlight-box {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #2a4365;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* Proporção 16:9 */
+      padding-top: 25px;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="#historia">Programação</a>
+    <a href="#ia">Inteligência Artificial</a>
+    <a href="#destaque">Destaque</a>
+    <a href="#conclusao">Conclusão</a>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h1>Inteligência Artificial nas Práticas de Programação</h1>
+    </div>
+
+    <div class="content">
+      <h2 id="historia">Resumo da História da Programação</h2>
+      <p>A história da programação é uma jornada fascinante que acompanha o desenvolvimento da tecnologia da computação e da própria humanidade. Aqui estão os principais marcos dessa história</p>
+      <h4>Antes dos Computadores:</h4>
+      <p>Os primeiros "programadores" eram matemáticos e cientistas que desenvolviam algoritmos manualmente para resolver problemas matemáticos. Charles Babbage, no século XIX, projetou a "Máquina Analítica," uma máquina mecânica programável, que é considerada o precursor dos computadores modernos. </p>
+      <h4>Década de 1940:</h4>
+      <p>O nascimento da programação de computadores ocorreu com máquinas como o ENIAC e o Colossus, usados durante a Segunda Guerra Mundial para cálculos complexos. Programadores usavam linguagem de máquina e cartões perfurados.</p>
+      <h4>Décadas de 1950 e 1960:</h4>
+      <p>Surgiram as primeiras linguagens de programação de alto nível, como Fortran e COBOL. A linguagem de montagem ainda era amplamente usada. Grace Hopper desenvolveu a primeira linguagem de programação compilada, o COBOL.</p>
+      <h4>Década de 1970:</h4>
+      <p>A linguagem C foi criada por Dennis Ritchie na Bell Labs, tornando-se uma das mais influentes da história. A programação estruturada ganhou popularidade.</p>
+      <h4>Décadas de 1980 e 1990:</h4>
+      <p>A explosão das linguagens de programação, incluindo C++, Java e Python, ocorreu. A Internet trouxe a criação da World Wide Web, impulsionando a demanda por desenvolvedores web.</p>
+      <h4>Início dos Anos 2000 em Diante:</h4>
+      <p>A programação ganhou destaque global com o surgimento de empresas de tecnologia como Google, Facebook e Apple. Linguagens como JavaScript e Ruby on Rails impulsionaram o desenvolvimento web. A computação em nuvem e a inteligência artificial também se tornaram áreas importantes da programação.</p>
+      <h4>Desenvolvimentos Recentes:</h4>
+      <p>A programação móvel se tornou crucial com a popularização de smartphones. Linguagens modernas como Swift (para iOS) e Kotlin (para Android) ganharam destaque. Além disso, a programação de aplicativos web e a automação de tarefas com Python tornaram-se tendências importantes.</p>
+      <h4>O Futuro da Programação: </h4>
+      <p> A programação continua a evoluir, com o crescimento da computação quântica, realidade virtual/aumentada e a expansão da IA. A acessibilidade à programação também está se tornando mais difundida, permitindo que pessoas de diferentes origens aprendam a programar.</p>
+      <p>A história da programação é uma narrativa contínua de inovação e avanço tecnológico, impulsionada por mentes criativas e pela necessidade de resolver problemas complexos em nossa sociedade cada vez mais digital. À medida que a tecnologia continua a avançar, a programação desempenha um papel fundamental em moldar o futuro.</p>
+      
+      <!-- Inserir uma imagem -->
+      <img src="historia-programacao.jpg" alt="História da Programação" width="350" height="300">
+
+      <div>
+      <a href="#conclusao" class="button">Pular para a Conclusão <i class="icon">&#10148;</i></a>
+     </div>
+
+      <h2 id="ia">Resumo da História da Inteligência Artificial</h2>
+      <p>A história da Inteligência Artificial remonta a antigas lendas e mitos sobre máquinas com características humanas. No entanto, o campo da IA como o conhecemos hoje começou a se desenvolver no século 20:</p>
+      <h4>Décadas de 1940 e 1950:</h4>
+      <p>Os primeiros passos na IA foram dados durante a Segunda Guerra Mundial, quando cientistas trabalhavam em computadores para resolver problemas complexos. Em 1950, Alan Turing propôs o "Teste de Turing" como um meio de determinar a inteligência de uma máquina.</p>
+      <h4>Décadas de 1950 e 1960:</h4>
+      <p>O termo "Inteligência Artificial" foi cunhado e o otimismo em relação à criação de máquinas inteligentes estava em alta. O programa de xadrez chamado "Turbochamp" foi desenvolvido neste período, mas o progresso geral foi mais lento do que o esperado.</p>
+      <h4>Décadas de 1970 e 1980:</h4>
+      <p>A IA passou por um período conhecido como "Inverno da IA", onde o financiamento e o interesse diminuíram devido ao desapontamento com os resultados. As abordagens simbólicas (baseadas em regras) dominaram este período.</p>
+      <h4>Décadas de 1990 e 2000:</h4>
+      <p>Com o aumento da capacidade de computação e o desenvolvimento de algoritmos de aprendizado de máquina, a IA ressurgiu. O XADREZ IBM Deep Blue derrotou o campeão mundial Garry Kasparov em 1997, demonstrando o poder do hardware e do software para tarefas específicas.</p>
+      <h4>Década de 2010 em diante::</h4>
+      <p>A IA entrou em uma era de rápido progresso. Algoritmos de aprendizado profundo, conhecidos como redes neurais profundas, se destacaram em tarefas como reconhecimento de imagem e processamento de linguagem natural. Grandes avanços em IA foram feitos por empresas como Google, Microsoft, Facebook e outras.</p>
+      <h4>IA na Vida Cotidiana:</h4>
+      <p>A IA agora desempenha um papel fundamental em nossas vidas, com assistentes virtuais, carros autônomos, recomendações de conteúdo online, diagnósticos médicos e muito mais.</p>
+      <h4>Desafios e Questões Éticas:</h4>
+      <p>A rápida evolução da IA também trouxe desafios, como questões de privacidade, viés algorítmico, desigualdade e a ética da automação em várias indústrias.</p>
+      <p>A história da IA é uma jornada fascinante de tentativa e erro, avanços e retrocessos, mas hoje a IA é uma parte integrante da tecnologia moderna e continua a se expandir em várias áreas, moldando nosso mundo de maneiras cada vez mais significativas.</p>
+      
+      <!-- Inserir uma imagem -->
+      
+      <img src="historia-ia.jpg" alt="História da IA" width="350" height="300">
+
+
+      <!-- Destaque com ícone -->
+      <div class="highlight-box" id="destaque">
+        <i class="icon">&#9733;</i>
+        <p>A IA está revolucionando a programação, automatizando tarefas, impulsionando a análise de dados, criando chatbots e assistentes virtuais, e desempenhando um papel vital em setores específicos. Programadores que dominam a IA estão na vanguarda da inovação, enfrentando desafios éticos e moldando o futuro da tecnologia.</p>
+      </div>
+
+      
+    </div>
+    
+    <div class="content">
+      <h2 id="conclusao">Conclusão</h2>
+      <p>A Inteligência Artificial (IA) está se tornando uma força transformadora nas práticas de programação, oferecendo automação avançada, ampliando a análise de dados, impulsionando a criação de chatbots e assistentes virtuais, e influenciando setores inteiros. Os programadores que abraçam a IA estão na vanguarda da inovação, mas também enfrentam desafios éticos. No entanto, é inegável que a IA está moldando profundamente o presente e o futuro da programação e da sociedade como um todo.</p>
+      
+      <!-- Incorporação de vídeo -->
+      <div class="video-container">
+        <!-- Substitua o link abaixo pelo link do seu vídeo -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D0O-Lk_Dnkw" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+    &copy; 2023 Bruno Schmidt Luz - Inteligência Artificial nas Práticas de Programação
+  </div>
+</body>
+</html>
